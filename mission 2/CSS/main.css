@@ -1,0 +1,43 @@
+body{
+	padding: 0;
+	margin: 0;
+}	
+
+.container{
+	width: 100%;
+	height: 100%;
+}
+.blocktop {
+	width: 60%;
+	height: 60%;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	background: #fe0302;
+}
+.blockcenter{
+	position: fixed;
+	width: 60%;
+	height: 60%;
+	background: #00fd1d; 
+	top: 20%;
+	right: 20%;
+	bottom: 20%;
+	left: 20%;
+
+}	
+.blockbottom{
+	position: fixed;
+	width: 60%;
+	height: 60%;
+	bottom: 0%;
+	right: 0%; 
+	background: #110efd;
+}
+.border{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	outline: 10px solid black ;
+	outline-offset: -10px;
+}
