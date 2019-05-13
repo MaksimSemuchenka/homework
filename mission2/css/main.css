@@ -1,0 +1,286 @@
+/* Спецификация */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #000
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+.title {
+    padding-top: 100px;
+    padding-bottom:70px;
+    text-align: center;
+}
+
+.title__main {
+    font-size: 32px;
+}
+
+.title__text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+/* Первый экран */
+
+.header {
+    color: #010101;
+    padding-top:58px;
+    padding-bottom: 105px;
+}
+.logo{
+    background: orange;
+}
+
+.menu {
+    margin-top: 8px;
+    background: red;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    font-size:22px;
+    font-weight:700;
+    color: #000;
+}
+.content{
+    margin-top: 20px;
+    background: green;
+}
+.offer {
+    margin-top:117px;
+}
+
+.offer__title {
+    font-size:32px;
+    margin-bottom: 15px;
+}
+
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-top:15px;
+    color: #555555;
+    width: 400px;
+}
+
+.icons__item {
+    margin-right:30px;
+}
+
+.icons__item a {
+    color: #000;
+    font-size: 42px;
+    transition: all 0.3s ease;
+}
+
+.icons__item a:hover {
+    text-decoration: none;
+    color: #ff4800;
+}
+
+.ipad {
+    display: block;
+    margin: 60px auto 0;
+}
+
+/* Второй экран */
+
+.feature {
+    margin-bottom: 65px;
+}
+
+.brown {
+    background:  brown;
+}
+.blue {
+    background:  blue;
+}
+.violet{
+    background: violet;
+}
+
+.feature__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000
+}
+
+.feature__text {
+    color: #898989
+}
+
+
+
+/* Медиа-запросы */
+
+@media screen and (max-width: 992px) {
+    .header{
+        padding: 0;
+    }
+    .logo {
+        position: relative;
+        height: 100%;
+        height: 55px;
+        bottom: 460px
+    }
+    .menu {
+        margin: 0px;
+        position: relative;
+        top: 120px;
+        height: 500px;
+    }
+    .content{
+        position: relative;
+        top: 70px;
+
+    }
+    .offer {
+        margin: 0;
+        text-align: center;
+    }
+    .offer__text {
+        margin: 20px auto;
+        width: auto;
+    }
+    .violet{
+        position: relative;
+        bottom: 1193px;
+        height: 55px;
+        width: 70%;
+        float: right;
+        font-size: 1vw;
+    }
+    .blue{
+        position: relative;
+        width: 49%;
+        height: 330px;
+        float: right;
+        bottom: 259px;
+        text-align: center;
+        padding: 100px 30px 0 30px;
+
+    }
+    .ipad{
+
+        display: none;
+    }.brown{
+        display: none;
+    }
+    .content{
+        width: 49%;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .icons__item:nth-child(3) {
+        margin-right: 0;
+    }
+    .form__input {
+        margin-right:0;
+        width: 100%;
+    }
+    .form__btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .title__text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px){
+    
+    .logo{
+        display: none;
+    }
+    .header{
+        padding: 0px;
+    }
+    .menu {
+        position: relative;
+        height: 500px;
+        top: 205px;
+        flex-direction: column;
+    }
+    .menu__item {
+        text-align: center;
+        margin-bottom:10px;
+    }
+    .content{  
+        position: relative;
+        top: -500px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 100px;
+    }   
+    .offer{ position: relati
+        padding: 0;
+        margin:0;
+    }
+
+    .offer__title{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+       font-size: 4vw; 
+    }
+    .offer__intro{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        font-size: 3vw; 
+    }
+    .offer__text{ 
+        margin: auto;
+        width: 200px;
+        font-size: 1.4vw;
+    }  
+    .icons__item a {
+         font-size: 2vw;
+    }
+    .ipad{
+       display: none;
+    }
+    .violet{
+        width: 100%;
+        position: relative;
+        bottom: 500px;
+        height: 100px;
+    }
+    .feature__text{
+        font-size: 3.2vw;
+    }
+    .blue{
+        display: none;
+    }
+    .brown{
+        display: none;
+    }
+}
