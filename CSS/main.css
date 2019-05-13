@@ -1,0 +1,34 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1020px;
+	margin: auto ;
+	text-align:  center;
+}
+.htmlcolor{
+	color: #01629d;
+}
+.textcolor{
+	color: #ff0000;
+}
+.list{
+	text-align:  left;
+}
+.disc{
+	list-style-type: disc ;
+}
+.circle{
+	list-style-type: circle ;
+}
+.none{
+	list-style-type: none;
+}
+
+.ordinary{
+color: #82699d;
+font-size: 12pt;
+font-family: fantasy; 
+}
