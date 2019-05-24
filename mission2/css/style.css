@@ -1,0 +1,29 @@
+body{
+ 	width: 100%;
+ 	background: #000;
+
+}
+.container {
+	width: 1200px;
+	border: 3px solid red;
+	padding: 30px;
+	color: #fff;
+}
+.text{
+	border: 3px solid #8b00ff;
+	margin: 20px;
+}
+.text2{
+	border: 3px solid #19ff19;
+	margin: 20px;
+}
+.text3{
+	border: 3px solid #ffff00;
+	margin: 20px;
+}
+.List{
+	background: red;
+}
+.br{
+	background: #fff;
+}
