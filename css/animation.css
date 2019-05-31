@@ -1,0 +1,78 @@
+
+@-webkit-keyframes shake {
+  100% {
+    -webkit-transform: translateX(-10px);    
+  }
+}
+@keyframes shake {
+  100% {
+    transform: translateX(-10px);    
+  }
+}
+
+
+@keyframes blockA {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+
+  to {
+    top: 0px;
+    left: 250px;
+  }
+}
+
+@keyframes blockB {
+  from {
+    top: 10px;
+    left: 0px;
+  }
+
+  to {
+    top: 100px;
+    left: 250px;
+  }
+}
+
+@keyframes blockC {
+  from {
+    top: 10px;
+    left: 0px;
+  }
+
+  to {
+    top: 200px;
+    left: 250px;
+  }
+}
+
+@keyframes blockD {
+  from {
+    top: 10px;
+    left: 0px;
+  }
+
+  to {
+    top: 300px;
+    left: 250px;
+  }
+}
+
+@keyframes blockE {
+  from {
+    top: 10px;
+    left: 0px;
+  }
+
+  to {
+    top: 400px;
+    left: 250px;
+  }
+}
+
+@keyframes RepColor {
+ 100%{
+ 	background: red;
+  }
+}
