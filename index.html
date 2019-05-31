@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Homework6</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+		<div class="header " id="header">
+			<div class="headerblock" id="headerblock">
+				LOGO
+			</div>
+			<div class="headerblock">
+				Блок поиска
+			</div>
+		</div>	
+	<div class="nav " id="nav">
+		<div class="navblock " id="navblock">
+			пункт 1
+		</div>
+		<div class="navblock">
+			пункт 2
+		</div>
+		<div class="navblock">
+			пункт 3
+		</div>
+		<div class="navblock">
+			пункт 4
+		</div>
+		<div class="navblock">
+			пункт 5
+		</div>
+		<div class="navblock">
+			пункт 6
+		</div>
+		<div class="navblock">
+			пункт 7
+		</div>
+	</div>
+	<div class="content">
+		<div class="assistant">
+				<div class="menu" id="menu">
+					<div class="menublock" >
+						<label class="label-check option">
+	  						<input type="checkbox" class="label-check__input">
+	  						<div class="block" id="blockA" onclick="blockA('Textblock1')">
+	  							блок 1
+	  							 <div class="Textblock" id="Textblock1">
+    								 Вспомогательный текст или что-то еще
+   								</div>
+	  						</div>
+						</label>
+					</div>
+					<div class="menublock" >
+						
+						<label class="label-check option">
+	  						<input type="checkbox" class="label-check__input">
+	  						<div class="block" id="blockB" onclick="blockB('Textblock2')">
+	  							блок 2
+	  							<div class="Textblock" id="Textblock2">
+    								 Вспомогательный текст или что-то еще
+   								</div>
+	  						</div>
+						</label>
+
+					</div>
+					<div class="menublock" >
+						<label class="label-check option">
+	  						<input type="checkbox" class="label-check__input">
+	  						<div class="block" id="blockC" onclick="blockC('Textblock3')">
+	  							блок 3
+	  							<div class="Textblock" id="Textblock3">
+    								 Вспомогательный текст или что-то еще
+   								</div>
+	  						</div>
+						</label>
+					</div>
+					<div class="menublock" >
+						<label class="label-check option">
+	  						<input type="checkbox" class="label-check__input">
+	  						<div class="block" id="blockD" onclick="blockD('Textblock4')">
+	  							блок 4
+	  							<div class="Textblock" id="Textblock4">
+    								 Вспомогательный текст или что-то еще
+   								</div>
+	  						</div>
+						</label>
+					</div>
+					<div class="menublock" >
+						<label class="label-check option">
+	  						<input type="checkbox" class="label-check__input">
+	  						<div class="block" id="blockE" onclick="blockE('Textblock5')">
+	  							блок 5
+	  							<div class="Textblock" id="Textblock5">
+    								 Вспомогательный текст или что-то еще
+   								</div>
+	  						</div>
+						</label>
+					</div>
+				</div>
+			<div class="text"> М<br>Е<br>Н<Br>Ю
+			</div>
+		</div>
+		<div class="rightblock" id="rightblock">
+			<div class="foto" id="foto">
+				<img  class="img" src="img/foto1.jpg" alt="фото 1" id="foto1">
+				<br>фото 1
+			</div>
+			<div class="foto">
+				<img class="img" src="img/foto1.jpg" alt="фото 2">
+				<br>фото 2
+			</div>
+			<div class="foto">			
+				<img class="img" src="img/foto2.jpg" alt="фото 3">
+				<br>фото 3
+			</div>
+			<div class="foto">
+				<img class="img" src="img/foto3.jpg" alt="фото 4">
+				<br>фото 4
+			</div>
+			<div class="foto">
+				<img class="img" src="img/foto2.jpg" alt="фото 5">
+				<br>фото 5
+			</div>
+			<div class="foto">
+				<img class="img" src="img/foto3.jpg" alt="фото 6">
+				<br>фото 6
+			</div>
+		</div>
+	</div>
+	<div class="footer" id="footer">
+		<form action="handler.php" target="area" name="form" onsubmit="return validate()">
+				e-mail: <input type="text" name="email"> 
+			<label class="label-check optionz">
+	  			<input type="checkbox" class="label-check__input" id="r">
+	  				<span class="send" id="send" onclick="validate()">
+	  					Отправить
+	  				</span>
+			</label>
+		</form>			
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>

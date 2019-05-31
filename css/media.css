@@ -1,0 +1,33 @@
+@media screen and (max-width: 540px) {
+   .rightblock{
+   	padding-left: 50px ;
+   }
+   .foto{
+   	margin: 0 40px;
+   }
+
+   .menu{
+   }
+}
+@media screen and (max-width: 992px) {
+	.assistant{
+		display: none;
+	}
+	.headerblock{
+		width: 49%;
+	}
+	.navblock{
+		flex-basis: 50px;
+		font-size: 10pt;
+	}
+	.menu{
+		width: 30%;
+	}
+	.menublock{
+		margin-bottom: 15%;
+	}
+	.rightblock{
+		margin: auto;
+		padding: auto; 
+	}
+}	
