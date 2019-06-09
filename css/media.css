@@ -1,0 +1,130 @@
+@media screen and (max-width: 1200px) {
+   .nav__item{
+        width: 40px;
+   }
+    .contact{
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    .feature{
+        margin-top: 20px;
+    }
+
+    .Card{
+
+        margin-top: 50px;
+    }
+
+    .card-img-top 
+    .card-img-bottom
+    .card-img {
+        margin-left: 20px;
+        width: 93%;
+        height: 400px;
+    }
+    
+    .img-problem{
+        padding: 20px 0px  20px 200px;
+    }
+
+    .razdelitel:before , 
+    .razdelitel:after{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .nav {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 150px 20px;
+    }
+    .nav__item{
+        width: 100px;
+    }
+    
+    .carousel{
+        display: none;
+    }
+    
+    
+    .feature{
+        margin-top: 20px;
+    }
+
+    .Card{
+
+        margin-top: 50px;
+    }
+    .card-img-top, 
+    .card-img-bottom,
+    .card-img{
+        margin-left: 20px;
+        width: 90%;
+        height: 400px;
+    }
+    
+    .img-problem{
+        padding: 20px 0px  20px 150px;
+    }
+
+    
+    footer{
+    
+    }
+    
+}
+
+
+
+@media screen and (max-width: 576px) {
+    h3{
+        font-size: 1.5em;
+    }
+    .logo{
+        margin:auto;
+    }
+     .nav {
+        padding: auto;
+        margin: auto;
+    }
+    .nav__item{
+        width: 100px;
+    }
+
+    .card-img-top, 
+    .card-img-bottom,  
+    .card-img{
+        width: 90%;
+
+    }
+
+    .img-problem{
+        display: none;
+        margin-left: auto;
+        padding: 20px 0px 30px 130px; 
+    }
+
+    .Caveat_text{
+        font-size: 0.6em;
+    }
+
+    .hl-i{
+        font-size: 0.5em;
+    
+    }
+    
+}
