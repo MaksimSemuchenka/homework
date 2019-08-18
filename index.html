@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Главная</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img class="img-size" src="img/IMG_8326.png" onmouseover="this.setAttribute('src','img/IMG_8326green.png')"
+                        onmouseout="this.setAttribute('src','img/IMG_8326.png')" alt="LOGO" >
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link waves-effect">Главная</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="workshop.html" class="nav-link waves-effect">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="catalog.html" class="nav-link waves-effect">Каталог</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link waves-effect">Обратная связь</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav nav-flex-icons">
+                            <li class="nav-item">
+                                <a href="cart.html" class="nav-link waves-effect">
+                                    <span class=" cart-color badge z-depth-1 mr-1" id="counter" data-qantity="0">0</span>
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="clearfix d-none d-sm-inline-block">Корзина</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link waves-effect">
+                                    <i class="fa fa-user"></i>
+                                </a>
+                            </li>                                       
+                        </ul>
+                        <div class="dropdown">
+                            <a href="registration.html" class="dark-grey-text" data-toggle="dropdown">Авторизация
+                            </a>
+                            <form class="dropdown-menu p-4 mr-2 drop-left">
+                                <div class="mb-1">
+                                    <label for="email">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="mb-1">
+                                    <label for="password">Password</label>
+                                    <input type="password" class=" form-control" id="password" placeholder="Password">
+                                </div>
+                                <a href="registration.html">Регистрация</a>
+                                <button  type="submit" class="btn cart-color btnClickReg">Войти</button>
+                            </form>
+                        </div> 
+                        <ul class="navbar-nav nav-flex-icons">
+                            <li class="nav-item">
+                                <a class="nav-link waves-effect">
+                                    <i class="fa fa-linux adjust1 mr-3" data-id ="1" id="btnColor1"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                    <div  class="nav-link ">
+                                        <span class="clearfix d-none d-sm-inline-block ">Переключи цвет пингвинчиком</span>
+                                    </div>
+                                </li>
+                            <li class="nav-item">
+                            <a  class="nav-link waves-effect">
+                                <i class="fa fa-linux adjust2 ml-3" data-id ="2" id="btnColor2"></i>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        <main>
+            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid" src="img/pony.png" alt="Картинка с пони">
+                        <div class="carousel-caption d-none d-md-block">
+                                <h3>Это большая семья пони</h3>
+                                <p>Зайди к нам в католог и выбери свою пони</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/pony2.png" alt="Картинка с пони">
+                        <div class="carousel-caption d-none d-md-block">
+                                <h3>Пони отдыхают все вместе</h3>
+                                <p>Зайди к нам в католог и выбери свою пони</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/pony3.png" alt="Картинка с пони">
+                        <div class="carousel-caption d-none d-md-block">
+                                <h3>Пони гуляют на лужайке</h3>
+                                <p>Зайди к нам в католог и выбери свою пони</p>
+                        </div>
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Предыдущий</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Следующий</span>
+                    </a>
+                </div>
+        </main>
+        <footer class="page-footer page-footer-color text-center font-small mt-4 fadeIn">
+            <hr class="mt-1">
+            <div class="pb-4">
+                    <a href="https://github.com/MaksimSemuchenka">
+                        <i class="fa fa-github mr-3"></i>
+                    </a>
+                    <a href="https://www.facebook.com/MyLittlePonyTheGame">
+                        <i class="fa fa-facebook mr-3"></i>
+                    </a>
+                    <a href="https://twitter.com/mlpmovie">
+                        <i class="fa fa-twitter mr-3"></i>
+                    </a>
+                    <a href="https://tgram.ru/channels/mylittlepony">
+                        <i class="fa fa-telegram mr-3" ></i>
+                    </a>
+                    <a href="https://www.instagram.com/mylittleponygame/">
+                        <i class="fa fa-instagram mr-3"></i>
+                    </a>
+                    <a href="https://vk.com/mlp">
+                        <i class="fa fa-vk mr-3"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCWaCaCyWgPk6uwKh66fl_0A">
+                        <i class="fa fa-youtube mr-3"></i>
+                    </a>
+                    
+                </div>
+            <div class="footer-copyright py-3">
+            Сайт сделан при помощи всевышних 
+            </div>
+        </footer>
+        <script  src="js/jquery-3.4.1.min.js"></script>
+        <script  src="js/bootstrap.min.js"></script>
+        <script  src="js/goods.js"></script>
+        <script  src="js/cart.js"></script>
+        <script  src="js/registration.js"></script>
+        <script  src="js/colorScript.js"></script>
+    </body>
+</html>
